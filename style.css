@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.banner .banner-image {
+.banner .image {
   width: 100%;
 }
-.banner .more-info {
+.banner .info {
   font-family: "fantasy", cursive;
 }
 
