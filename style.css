@@ -13,20 +13,22 @@
   text-align: right;
 }
 
-.banner .image {
+.banner,
+.image {
   width: 100%;
 }
 
-.banner .info {
+.banner,
+.info {
   font-family: "fantasy", cursive;
 }
 
 @media (max-width: 768px) {
 
-  .banner { 
+  .banner {
     text-align: center;
   }
-
+  
 }
 
 .container {
@@ -67,7 +69,7 @@
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -152,34 +154,40 @@
   color: #cf2323;
 }
 
-.delete .img {
+.delete,
+.img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete .img:hover {
+.delete,
+.img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#finished-tasks .label {
+#finished-tasks,
+.label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.list .input {
+.list,
+.input {
   display: none;
 }
 
-.edit-mode .input {
+.edit-mode,
+.input {
   display: inline-block;
   width: 65%;
 }
 
-.edit-mode .label {
+.edit-mode,
+.label {
   display: none;
 }
