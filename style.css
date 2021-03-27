@@ -13,12 +13,12 @@
   text-align: right;
 }
 
-.banner,
+.banner
 .image {
   width: 100%;
 }
 
-.banner,
+.banner
 .info {
   font-family: "fantasy", cursive;
 }
@@ -114,7 +114,7 @@
   width: 318px;
 }
 
-.input-wrapper,
+.input-wrapper
 .button:hover {
   color: #0fc57c;
 }
@@ -125,7 +125,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,21 +153,21 @@
   color: #cf2323;
 }
 
-.delete,
+.delete
 .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete,
+.delete
 .img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#finished-tasks,
+#finished-tasks
 .label {
   text-decoration: line-through;
   color: #888;
@@ -176,18 +175,18 @@
 
 /* Edit Task */
 
-.list,
+.list 
 .input {
   display: none;
 }
 
-.edit-mode,
+.edit-mode 
 .input {
   display: inline-block;
   width: 65%;
 }
 
-.edit-mode,
+.edit-mode 
 .label {
   display: none;
 }
