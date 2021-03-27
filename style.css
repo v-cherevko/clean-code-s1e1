@@ -1,47 +1,60 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: "lato", sans-serif;
 }
+
 .banner {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .banner .image {
   width: 100%;
 }
+
 .banner .info {
   font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
-.banner { text-align: center;
+
+  .banner { 
+    text-align: center;
+  }
+
 }
-}
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 #unfinished-tasks,
 #finished-tasks {
   margin:0;
   padding: 0px;
 }
+
 .list {
   list-style:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -52,10 +65,13 @@
   outline:none;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
+
 .subtitle,
 .add-item {
   color: #333;
@@ -66,6 +82,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input {
   margin: 0;
   font-size: 18px;
@@ -79,24 +96,29 @@
   color: #888;
   outline:none;
 }
+
 .input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .add-item {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task {
   width: 318px;
 }
+
 .input-wrapper,
 .button:hover {
   color: #0fc57c;
 }
 
 /* Task list */
+
 .list {
   overflow: hidden;
   padding: 20px 0;
@@ -106,6 +128,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .list > * {
   vertical-align: middle;
 }
@@ -113,34 +136,41 @@
 .list > .checkbox {
   margin: 0 10px;
 }
+
 .list > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list > .input {
   width: 226px
 }
+
 .list > .button.delete:hover {
   color: #cf2323;
 }
+
 .delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete .img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #finished-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .list .input {
   display:none
 }
