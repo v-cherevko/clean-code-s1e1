@@ -21,7 +21,7 @@
   font-family: "fantasy", cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .banner { 
     text-align: center;
@@ -38,7 +38,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -145,7 +145,7 @@
 }
 
 .list > .input {
-  width: 226px
+  width: 226px;
 }
 
 .list > .button.delete:hover {
@@ -172,7 +172,7 @@
 /* Edit Task */
 
 .list .input {
-  display: none
+  display: none;
 }
 
 .edit-mode .input {
